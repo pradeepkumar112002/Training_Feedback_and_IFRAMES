@@ -1,0 +1,74 @@
+body{
+    margin: 0;
+}
+.main{
+    background-color: whitesmoke;
+    width: 60%;
+    margin-left: 20%;
+    height: 1700px;
+}
+
+.main input{
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+
+label {
+    display: flex;
+    font-family: monospace;
+    font-size: 20px;
+    border: 2px solid black;
+    width: fit-content;
+    background-color: azure;
+    border-radius: 20px;
+    flex-direction: row;
+    justify-content: flex-start;
+    text-align: right;
+    width: 400px;
+    line-height: 26px;
+    margin-bottom: 10px;
+  }
+.radio{
+    padding-top: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 0;
+}
+.checkbt{
+    margin-top: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding-top: 40px;
+    margin-bottom: 10px;
+    padding: 0;
+}
+.radio label{
+    border: 0;
+    background-color: whitesmoke;
+}
+.checkbt label{
+    flex: 0;
+    border: 0;
+    background-color: whitesmoke;
+}
+
+  
+  input {
+    height: 20px;
+    flex: 0 0 200px;
+    margin-left: 10px;
+  }
+
+  .ele1 , .ele2 , .ele3 , .ele4 , .ele5{
+        display: flex;
+        flex-wrap:unset;
+    }
+
+    .ele11 , .ele22, .ele33{
+        display: flex;
+        flex-flow: row-reverse;
+        margin-right: 300px;
+    }

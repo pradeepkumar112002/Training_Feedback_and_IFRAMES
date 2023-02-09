@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/SurveyPage.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="main">
+    <form>
+        <center>
+            <h1 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Feedback Form</h1>
+        <label for="firstName">Enter Your First Name : </label>
+        <input type="text" name="Fname" id="fname" placeholder="Pradeep">
+        
+        <label for="lastName">Enter Your Last Name : </label>
+        <input type="text" name="Lname" id="lname" placeholder="Kumar">
+        
+        <label for="age">Age : </label>
+        <input type="number" name="age" id="age" placeholder="20">
+        
+        <label for="email">Enter Your Email :   </label>
+        <input type="email" name="email" id="email">
+        
+        <label for="ph">Enter Your Mobile Number : </label>
+        <input type="tel" name="phone" id="ph">
+        
+        <label for="state">Select State : </label>
+        <select name="State" id="state">
+            <option value="TamilNadu">Tamil Nadu</option>
+            <option value="Karnataka">Karnataka</option>
+            <option value="MadhyaPradesh">Madhya Pradesh</option>
+            <option value="UttarPradesh">Uttar Pradesh</option>
+            <option value="Kerala">Kerala</option>
+            <option value="AndhraPradesh">Andhra Pradesh</option>
+            <option value="Goa">Goa</option>
+        </select>
+        <div class="radio">
+            <label for="experience">How Was Your Experience From Your Short Stay On Our Page : </label>
+            <br>
+            <div class="ele1">
+            <label for="Excellent">Excellent</label><input type="radio" name="Rating" id="rating">
+        </div>
+        <div class="ele2">
+            <label for="good">Good</label><input type="radio" name="Rating" id="rating">
+        </div>
+            <div class="ele3">
+            <label for="Average">Average</label><input type="radio" name="Rating" id="rating">
+        </div>
+            <div class="ele4">
+            <label for="Bad">Bad</label><input type="radio" name="Rating" id="rating">
+        </div>
+            <div class="ele5">
+            <label for="poor">Poor</label><input type="radio" name="Rating" id="rating">
+        </div>
+    </div>
+        <div class="checkbt">
+        <label for="check">Have we met with all of this below requirements :</label>
+        <br>
+        <div class="ele11">
+        <input type="checkbox" name="req" id="req">
+        <label for="smooth" style="margin-top: -20;">Smooth Page </label>
+    </div>
+        <div class="ele22">
+        <input type="checkbox" name="req" id="req">
+        <label for="NoLag">Lag Free Experience</label>
+    </div>
+        <div class="ele33">
+        <input type="checkbox" name="req" id="req">
+        <label for="UserFriendly">User Friendly </label>
+    </div>
+    </div>
+        <label for="Suggestion">Give us your Suggestions : </label>
+
+        
+        <textarea name="txtArea" id="area" cols="30" rows="10"></textarea>
+        <br>
+        <br>
+        <input type="submit" > 
+    </center>
+    </form>
+</div>
+</body>
+</html>
